@@ -1,4 +1,4 @@
-import AchievementsListItem from "./AchievementListItem";
+import AchievementsListItem from "./AchievementsListItem";
 
 export default function AchievementsPage() {
   return (

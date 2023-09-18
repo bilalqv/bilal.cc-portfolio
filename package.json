@@ -1,7 +1,7 @@
 {
-  "name": "project-src-2",
-  "version": "0.1.0",
-  "private": true,
+  "name": "bilal.cc-portfolio",
+  "version": "1.0.0",
+  "author": "Bilal Ahmad Bhat <crediblebilal@gmail.com>",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

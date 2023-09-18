@@ -11,8 +11,17 @@ const raleway = Raleway({
 })
 
 export const metadata: Metadata = {
-  title: 'Bilal Ahmad Bhat',
-  description: 'My personal portfolio website',
+  title: {
+    template: '%s | Bilal Ahmad Bhat',
+    default: 'Bilal Ahmad Bhat | Software Developer',
+  },
+  description: 'Bilal Ahmad Bhat - Software Developer - My personal portfolio website',
+  authors: [{ name: 'Bilal Ahmad Bhat' }],
+  applicationName: 'Bilal Ahmad Bhat - Portfolio',
+  generator: 'Next.js',
+  keywords: ['nextjs', 'portfolio', 'TypeScript', 'developer', 'Computer Science', 'Software Engineer'],
+  creator: 'Bilal Ahmad Bhat - crediblebilal@gmail.com',
+  publisher: 'Bilal Ahmad Bhat',
 }
 
 export default function RootLayout({
