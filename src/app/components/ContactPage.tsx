@@ -6,10 +6,10 @@ export default function ContactPage() {
     <div id="contact" className="h-screen flex flex-col justify-center items-center " >
       <div className="container mx-auto animate-fade-in">
         <h2 className="text-3xl max-[500px]:text-2xl font-bold text-center mb-8">Get in touch</h2>
-        <div className="my-2 flex  justify-center space-x-4 mb-6 rounded-md w-min mx-auto border border-[#1e1e1e] outline-1 p-2">
-          <a href={EMAIL} className=' p-2 hover:bg-[#141414] rounded-md '> <SiGmail className='text-3xl max-[500px]:text-xl' /> </a>
-          <a href={LINKEDIN_URL} target='_blank' className=' p-2 hover:bg-[#141414] rounded-md '> <SiLinkedin className='text-3xl max-[500px]:text-xl' /> </a>
-          <a href={GITHUB_URL} target='_blank' className=' p-2 hover:bg-[#141414] rounded-md '> <SiGithub className='text-3xl max-[500px]:text-xl' /> </a>
+        <div className="my-2 flex  justify-center space-x-4 mb-6 rounded-md w-min mx-auto border border-[#b4b4b4] dark:border-[#1e1e1e] outline-1 p-2">
+          <a href={EMAIL} className=' p-2 hover:bg-[#cccccc] dark:hover:bg-[#181818] rounded-md '> <SiGmail className='text-3xl max-[500px]:text-xl' /> </a>
+          <a href={LINKEDIN_URL} target='_blank' className=' p-2 hover:bg-[#cccccc] dark:hover:bg-[#181818] rounded-md '> <SiLinkedin className='text-3xl max-[500px]:text-xl' /> </a>
+          <a href={GITHUB_URL} target='_blank' className=' p-2 hover:bg-[#cccccc] dark:hover:bg-[#181818] rounded-md '> <SiGithub className='text-3xl max-[500px]:text-xl' /> </a>
         </div>
         {/* <div className="bg-[#090909] rounded-lg shadow-md p-6 max-w-md mx-auto">
           <h2 className="text-3xl max-[500px]:text-2xl font-bold text-center mb-8">Send Message</h2>

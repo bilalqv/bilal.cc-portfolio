@@ -14,25 +14,25 @@ export default function ProjectsPage() {
         <div className="grid grid-cols-1 min-[950px]:grid-cols-2 gap-4 justify-evenly max-sm:w-11/12 max-[950px]:w-4/5 mx-auto">
 
           {/* First project card */}
-          <div className=" rounded-md bg-[#090909] text-center border border-[#1c1c1c] outline-1 ">
-            <div className="  border-b border-neutral-700 px-6 py-3 dark:border-neutral-700 dark:text-neutral-50">
+          <div className=" flex flex-col rounded-md bg-[#e4e4e4]  dark:bg-[#090909] text-center border border-[#b4b4b4] dark:border-[#1c1c1c] outline-1 ">
+            <div className="  border-b border-[#b4b4b4] px-6 py-3 dark:border-neutral-700 ">
               Realtime Chat App
             </div>
-            <div className="p-6 m-0 h-4/6">
+            <div className="p-5 m-0 flex-grow">
               <p className="mb-0 text-base max-[500px]:text-sm text-justify ">
                 I have developed this real-time Chat web application using React.js, Node.js, Socket.io, MongoDB, and Express, where users can register themselves, and then send and receive real-time messages. I have also implemented the authentication due to which only registered users are able to use it.
               </p>
             </div>
-            <div className=" bg-[#090909]  bottom-part flex justify-between border-t border-neutral-700 px-6 py-3 dark:border-neutral-700 dark:text-neutral-50 ">
+            <div className="bottom-part rounded-b-md bg-[#e4e4e4] dark:bg-[#090909]   flex justify-between border-t border-[#b4b4b4] px-6 py-3 dark:border-neutral-700  ">
               <div className=" flex ">
-                <a href={CHAT_APP_URL} target='_blank' className=' p-2 hover:bg-[#141414] rounded-md '> <SiGithub className='text-xl max-[500px]:text-lg' /> </a>
-                <a href="" className=' p-2 hover:bg-[#141414] rounded-md pointer-events-none '> <BsGlobe className='text-xl max-[500px]:text-lg' /> </a>
+                <a href={CHAT_APP_URL} target='_blank' className=' p-2 hover:bg-[#cccccc] dark:hover:bg-[#181818] rounded-md '> <SiGithub className='text-xl max-[500px]:text-lg' /> </a>
+                <a href="" className=' p-2 hover:bg-[#cccccc] dark:hover:bg-[#181818] rounded-md pointer-events-none '> <BsGlobe className='text-xl max-[500px]:text-lg' /> </a>
               </div>
               <div className=" flex ">
-                <p className=' p-2 hover:bg-[#141414] rounded-md '> <FaNodeJs className='text-xl max-[500px]:text-lg' /> </p>
-                <p className=' p-2 hover:bg-[#141414] rounded-md '> <BiLogoJavascript className='text-xl max-[500px]:text-lg' /> </p>
-                <p className=' p-2 hover:bg-[#141414] rounded-md '> <BiLogoReact className='text-xl max-[500px]:text-lg' /> </p>
-                <p className=' p-2 hover:bg-[#141414] rounded-md '> <BiLogoMongodb className='text-xl max-[500px]:text-lg' /> </p>
+                <p className=' p-2 hover:bg-[#cccccc] dark:hover:bg-[#181818] rounded-md '> <FaNodeJs className='text-xl max-[500px]:text-lg' /> </p>
+                <p className=' p-2 hover:bg-[#cccccc] dark:hover:bg-[#181818] rounded-md '> <BiLogoJavascript className='text-xl max-[500px]:text-lg' /> </p>
+                <p className=' p-2 hover:bg-[#cccccc] dark:hover:bg-[#181818] rounded-md '> <BiLogoReact className='text-xl max-[500px]:text-lg' /> </p>
+                <p className=' p-2 hover:bg-[#cccccc] dark:hover:bg-[#181818] rounded-md '> <BiLogoMongodb className='text-xl max-[500px]:text-lg' /> </p>
 
 
               </div>
@@ -40,28 +40,28 @@ export default function ProjectsPage() {
           </div>
 
           {/* 2nd project card */}
-          <div className=" rounded-md bg-[#090909] text-center border border-[#1c1c1c] outline-1 ">
-            <div className="  border-b border-neutral-700 px-6 py-3 dark:border-neutral-700 dark:text-neutral-50">
+          <div className="flex flex-col rounded-md bg-[#e4e4e4] dark:bg-[#090909] text-center border border-[#b4b4b4] dark:border-[#1c1c1c] outline-1 ">
+            <div className="  border-b border-[#b4b4b4] px-6 py-3 dark:border-neutral-700 ">
               Patient Portal
             </div>
-            <div className="p-6 m-0 h-4/6">
+            <div className="p-5 m-0 flex-grow">
               <p className="mb-0 text-base max-[500px]:text-sm text-justify ">
                 I have developed a Node.js web application that can be used by different hospitals to maintain patients’
                 data. I have implemented redis caching to improve application performance and reduce database costs.
                 Session authentication allows only authenticated users to access the portal.
               </p>
             </div>
-            <div className=" bg-[#090909]  bottom-part flex justify-between border-t border-neutral-700 px-6 py-3 dark:border-neutral-700 dark:text-neutral-50 ">
+            <div className="bottom-part rounded-b-md bg-[#e4e4e4] dark:bg-[#090909]   flex justify-between border-t border-[#b4b4b4] px-6 py-3 dark:border-neutral-700  ">
               <div className=" flex ">
-                <a href={PATIENT_PORTAL_URL} target='_blank' className=' p-2 hover:bg-[#141414] rounded-md '> <SiGithub className='text-xl max-[500px]:text-lg' /> </a>
-                <a href="" className=' p-2 hover:bg-[#141414] rounded-md pointer-events-none '> <BsGlobe className='text-xl max-[500px]:text-lg' /> </a>
+                <a href={PATIENT_PORTAL_URL} target='_blank' className=' p-2 hover:bg-[#cccccc] dark:hover:bg-[#181818] rounded-md '> <SiGithub className='text-xl max-[500px]:text-lg' /> </a>
+                <a href="" className=' p-2 hover:bg-[#cccccc] dark:hover:bg-[#181818] rounded-md pointer-events-none '> <BsGlobe className='text-xl max-[500px]:text-lg' /> </a>
               </div>
               <div className=" flex ">
-                <p className=' p-2 hover:bg-[#141414] rounded-md '> <FaNodeJs className='text-xl max-[500px]:text-lg' /> </p>
-                <p className=' p-2 hover:bg-[#141414] rounded-md '> <BiLogoJavascript className='text-xl max-[500px]:text-lg' /> </p>
-                <p className=' p-2 hover:bg-[#141414] rounded-md '> <SiMysql className='text-xl max-[500px]:text-lg' /> </p>
-                <p className=' p-2 hover:bg-[#141414] rounded-md '> <SiRedis className='text-xl max-[500px]:text-lg' /> </p>
-                <p className=' p-2 hover:bg-[#141414] rounded-md '> <SiSequelize className='text-xl max-[500px]:text-lg' /> </p>
+                <p className=' p-2 hover:bg-[#cccccc] dark:hover:bg-[#181818] rounded-md '> <FaNodeJs className='text-xl max-[500px]:text-lg' /> </p>
+                <p className=' p-2 hover:bg-[#cccccc] dark:hover:bg-[#181818] rounded-md '> <BiLogoJavascript className='text-xl max-[500px]:text-lg' /> </p>
+                <p className=' p-2 hover:bg-[#cccccc] dark:hover:bg-[#181818] rounded-md '> <SiMysql className='text-xl max-[500px]:text-lg' /> </p>
+                <p className=' p-2 hover:bg-[#cccccc] dark:hover:bg-[#181818] rounded-md '> <SiRedis className='text-xl max-[500px]:text-lg' /> </p>
+                <p className=' p-2 hover:bg-[#cccccc] dark:hover:bg-[#181818] rounded-md '> <SiSequelize className='text-xl max-[500px]:text-lg' /> </p>
 
 
 

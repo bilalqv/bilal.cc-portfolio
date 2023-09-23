@@ -9,9 +9,9 @@ export default function ExperiencePage() {
 
         <div className="grid grid-cols-1 min-[950px]:grid-cols-2 gap-4 justify-evenly max-sm:w-11/12 max-[950px]:w-4/5 mx-auto">
           {/* card 1 */}
-          <div className='bg-[#090909] rounded-md p-6 pl-3  mx-auto border border-[#1c1c1c] outline-1'>
+          <div className='bg-[#e4e4e4] dark:bg-[#090909] rounded-md p-6 pl-3  mx-auto border border-[#b4b4b4] dark:border-[#1c1c1c] outline-1'>
             <p className=' font-bold'>Software Engineer Intern</p>
-            <p className='flex justify-evenly	' ><a href={MEDIBUDDY_URL} target="_blank" className="bg-[#141414] rounded-md px-2 py-1 hover:bg-[#252525] italic ">MediBuddy</a> <span className="bg-[#141414] rounded-md px-2 py-1 "> Jan'23 - May'23 </span> </p>
+            <p className='flex justify-evenly	' ><a href={MEDIBUDDY_URL} target="_blank" className="bg-[#d7d7d7] dark:bg-[#141414] rounded-md px-2 py-1 hover:bg-[#c8c8c8] dark:hover:bg-[#252525] italic ">MediBuddy</a> <span className="bg-[#d7d7d7] dark:bg-[#141414] rounded-md px-2 py-1 "> Jan'23 - May'23 </span> </p>
             <ul className="  list-disc list-outside md:list-inside">
               <li className="flex  space-x-1 my-2">
                 <ListTick />
@@ -31,9 +31,9 @@ export default function ExperiencePage() {
 
           {/* card 2 */}
 
-          <div className='bg-[#090909] rounded-md p-6 pl-3  mx-auto border border-[#1c1c1c] outline-1'>
+          <div className='bg-[#e4e4e4] dark:bg-[#090909] rounded-md p-6 pl-3  mx-auto border border-[#b4b4b4] dark:border-[#1c1c1c] outline-1'>
             <p className=' font-bold'>Software Engineer Intern</p>
-            <p className='flex justify-evenly	' ><a href={SUPERBEINGS_UTL} target="_blank" className="bg-[#141414] rounded-md px-2 py-1 hover:bg-[#252525] italic">SuperBeings</a> <span className="bg-[#141414] rounded-md px-2 py-1 "> Jan'22 - Mar'22 </span> </p>
+            <p className='flex justify-evenly	' ><a href={SUPERBEINGS_UTL} target="_blank" className="bg-[#d7d7d7] dark:bg-[#141414] rounded-md px-2 py-1 hover:bg-[#c8c8c8] dark:hover:bg-[#252525] italic">SuperBeings</a> <span className="bg-[#d7d7d7] dark:bg-[#141414] rounded-md px-2 py-1 "> Jan'22 - Mar'22 </span> </p>
             <ul className="  list-disc list-outside md:list-inside">
               <li className="flex  space-x-1 my-2">
                 <ListTick />
