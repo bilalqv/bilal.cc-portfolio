@@ -64,13 +64,13 @@ export default function HomePage() {
     <div id="home-section" className=" h-screen flex flex-col justify-center text-center ">
       <ParticlesBg />
       <h1 className={` ${dancing.className} font-bold  text-3xl max-[500px]:text-2xl max-md: content-center  md:text-4xl lg:text-5xl xl:text-6xl  animate-fade-in`}  >Bilal Ahmad Bhat</h1>
-      <div className="text-lg md:text-xl lg:text-2xl  max-md:text-center  animate-fade-in my-1 ">
+      <div className="text-lg md:text-xl lg:text-2xl  max-md:text-center  animate-fade-in my-1 dark:text-[#fbfbfb] text-black ">
         I am a <span className="changing-text text-[#0563bb] italic" ref={el} >  </span>
         <span className="cursor blink text-[#0563bb] italic">|</span>
       </div>
-      <div className='social-links flex  justify-center space-x-4    animate-fade-in border border-[#1e1e1e] outline-1 w-min mx-auto rounded-md p-1 '>
-        <a href={LINKEDIN_URL} target='_blank' className=' p-2 hover:bg-[#141414] rounded-md '> <SiLinkedin className='text-2xl' /> </a>
-        <a href={GITHUB_URL} target='_blank' className=' p-2 hover:bg-[#141414] rounded-md '> <SiGithub className='text-2xl' /> </a>
+      <div className='social-links flex  justify-center space-x-4    animate-fade-in border border-[#b4b4b4] dark:border-[#1e1e1e] outline-1 w-min mx-auto rounded-md p-2 '>
+        <a href={LINKEDIN_URL} target='_blank' className=' p-2 hover:bg-[#cccccc] dark:hover:bg-[#181818] rounded-md '> <SiLinkedin className='text-2xl' /> </a>
+        <a href={GITHUB_URL} target='_blank' className=' p-2 hover:bg-[#cccccc] dark:hover:bg-[#181818] rounded-md '> <SiGithub className='text-2xl' /> </a>
       </div>
     </div>
   )

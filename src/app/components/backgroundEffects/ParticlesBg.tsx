@@ -28,7 +28,7 @@ export default function ParticlesBg() {
         },
         background: {
           color: {
-            value: "#000000",
+            value: "",
           },
         },
         fpsLimit: 120,
@@ -59,7 +59,7 @@ export default function ParticlesBg() {
             value: "#ffffff",
           },
           links: {
-            color: "#ffffff",
+            color: "",
             distance: 150, // for links
             enable: true,
             opacity: 0.5,
@@ -80,7 +80,7 @@ export default function ParticlesBg() {
               enable: true,
               area: 800,
             },
-            value: 40,
+            value: 70,
           },
           opacity: {
             value: 0.7,
