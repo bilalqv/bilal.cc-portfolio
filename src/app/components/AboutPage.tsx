@@ -67,7 +67,7 @@ export default function AboutPage() {
               {programmingLanguages.map((skill, index) => (
                 <div 
                   key={index}
-                  className="bg-[#d7d7d7] dark:bg-[#181818] dark:text-[#fbfbfb] rounded-lg inline-flex items-center justify-center px-3 py-2 m-1  max-[470px]:px-2 max-[470px]:py-1.5 "
+                  className="bg-[#d7d7d7] dark:bg-[#181818]  rounded-lg inline-flex items-center justify-center px-3 py-2 m-1  max-[470px]:px-2 max-[470px]:py-1.5 "
                 >
                   <p className="-mt-1 font-sans max-[500px]:text-sm ">{skill}</p>
                 </div>
@@ -82,7 +82,7 @@ export default function AboutPage() {
               {topics.map((skill, index) => (
                 <div 
                   key={index}
-                  className="bg-[#d7d7d7] dark:bg-[#181818] dark:text-[#fbfbfb] rounded-lg inline-flex items-center justify-center px-3 py-2 m-1 max-[470px]:px-2 max-[470px]:py-1.5 "
+                  className="bg-[#d7d7d7] dark:bg-[#181818] rounded-lg inline-flex items-center justify-center px-3 py-2 m-1 max-[470px]:px-2 max-[470px]:py-1.5 "
                 >
                   <p className="-mt-1 font-sans max-[500px]:text-sm ">{skill}</p>
                 </div>
@@ -97,7 +97,7 @@ export default function AboutPage() {
               {softwares.map((skill, index) => (
                 <div 
                   key={index}
-                  className="bg-[#d7d7d7] dark:bg-[#181818] dark:text-[#fbfbfb] rounded-lg inline-flex items-center justify-center px-3 py-2 m-1 max-[470px]:px-2 max-[470px]:py-1.5 "
+                  className="bg-[#d7d7d7] dark:bg-[#181818] rounded-lg inline-flex items-center justify-center px-3 py-2 m-1 max-[470px]:px-2 max-[470px]:py-1.5 "
                 >
                   <p className="-mt-1 font-sans max-[500px]:text-sm ">{skill}</p>
                 </div>

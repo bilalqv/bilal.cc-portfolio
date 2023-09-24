@@ -64,7 +64,7 @@ export default function HomePage() {
     <div id="home-section" className=" h-screen flex flex-col justify-center text-center ">
       <ParticlesBg />
       <h1 className={` ${dancing.className} font-bold  text-3xl max-[500px]:text-2xl max-md: content-center  md:text-4xl lg:text-5xl xl:text-6xl  animate-fade-in`}  >Bilal Ahmad Bhat</h1>
-      <div className="text-lg md:text-xl lg:text-2xl  max-md:text-center  animate-fade-in my-1 dark:text-[#fbfbfb] text-black ">
+      <div className="text-lg md:text-xl lg:text-2xl  max-md:text-center  animate-fade-in my-1  ">
         I am a <span className="changing-text text-[#0563bb] italic" ref={el} >  </span>
         <span className="cursor blink text-[#0563bb] italic">|</span>
       </div>
