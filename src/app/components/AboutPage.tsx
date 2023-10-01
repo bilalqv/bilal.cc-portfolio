@@ -2,7 +2,7 @@ import { SiGeeksforgeeks, SiGithub, SiHackerrank, SiLeetcode } from 'react-icons
 import { LiaHackerrank } from 'react-icons/lia';
 import { GFG_URL, GITHUB_URL, HACKERRANK_URL, LEETCODE_URL, NIT_SRINAGAR, SUPERBEINGS_UTL } from '../constants';
 
-export default function AboutPage() {
+export default function AboutPage(): JSX.Element {
   const programmingLanguages = ['C', 'C++', 'HTML', 'CSS', 'JavaScript', 'TypeScript'];
   const topics = ['Data Structures', 'Algorithms and Optimization', 'Object Oriented Programming', 'Operating Systems',
     'Machine Learning', 'Frontend Development', 'Bckend Development', 'Serverless Architecture', 'Blockchains'];
@@ -65,7 +65,7 @@ export default function AboutPage() {
             <div className="flex flex-wrap px-4 max-[500px]:px-2">
 
               {programmingLanguages.map((skill, index) => (
-                <div 
+                <div
                   key={index}
                   className="bg-[#d7d7d7] dark:bg-[#181818]  rounded-lg inline-flex items-center justify-center px-3 py-2 m-1  max-[470px]:px-2 max-[470px]:py-1.5 "
                 >
@@ -80,7 +80,7 @@ export default function AboutPage() {
             <div className="flex flex-wrap px-4 max-[500px]:px-2">
 
               {topics.map((skill, index) => (
-                <div 
+                <div
                   key={index}
                   className="bg-[#d7d7d7] dark:bg-[#181818] rounded-lg inline-flex items-center justify-center px-3 py-2 m-1 max-[470px]:px-2 max-[470px]:py-1.5 "
                 >
@@ -95,7 +95,7 @@ export default function AboutPage() {
             <div className="flex flex-wrap px-4 max-[500px]:px-2">
 
               {softwares.map((skill, index) => (
-                <div 
+                <div
                   key={index}
                   className="bg-[#d7d7d7] dark:bg-[#181818] rounded-lg inline-flex items-center justify-center px-3 py-2 m-1 max-[470px]:px-2 max-[470px]:py-1.5 "
                 >

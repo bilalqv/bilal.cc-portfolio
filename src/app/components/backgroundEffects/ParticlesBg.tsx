@@ -5,7 +5,7 @@ interface ParticlesBgProps {
   type: string;
 }
 
-export default function ParticlesBg() {
+export default function ParticlesBg(): JSX.Element {
 
   const particlesInit = async (main: any) => {
 

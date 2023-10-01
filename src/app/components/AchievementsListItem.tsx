@@ -1,8 +1,8 @@
-interface AchievementsListItemProps {
-  text: string;
+type appProps = {
+  text: string
 }
 
-export default function AchievementsListItem({ text } : AchievementsListItemProps) {
+export default function AchievementsListItem({ text }: appProps): JSX.Element {
   return (
     <li className="text-body-color mb-4 flex text-base max-[500px]:text-sm p-2 rounded-md border border-[#b4b4b4] dark:border-[#2a2020] outline-1">
       <span className=" mr-2 flex items-center text-base max-[500px]:text-sm">

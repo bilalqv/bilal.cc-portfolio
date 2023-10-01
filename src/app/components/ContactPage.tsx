@@ -1,7 +1,7 @@
 import { SiGithub, SiLinkedin, SiGmail } from "react-icons/si";
 import { EMAIL, GITHUB_URL, LINKEDIN_URL } from "../constants";
 
-export default function ContactPage() {
+export default function ContactPage(): JSX.Element {
   return (
     <div id="contact" className="h-screen flex flex-col justify-center items-center " >
       <div className="container mx-auto animate-fade-in">

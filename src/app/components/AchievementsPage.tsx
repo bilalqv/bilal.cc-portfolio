@@ -1,6 +1,6 @@
 import AchievementsListItem from "./AchievementsListItem";
 
-export default function AchievementsPage() {
+export default function AchievementsPage(): JSX.Element {
   return (
     <div id="experience" className=" min-h-screen flex flex-col justify-center items-center  ">
       <div className="animate-fade-in max-w-screen-xl mx-auto p-4 md:p-8">

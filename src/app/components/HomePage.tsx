@@ -12,7 +12,7 @@ const dancing = Dancing_Script({
   display: 'swap',
 })
 
-export default function HomePage() {
+export default function HomePage(): JSX.Element {
 
   const changingTexts = ['Software Developer', 'Problem Solver'];
   let typingDelay = 150;

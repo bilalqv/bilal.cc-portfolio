@@ -1,7 +1,7 @@
 import { MEDIBUDDY_URL, SUPERBEINGS_UTL } from "../constants"
 import ListTick from "./ListTick"
 
-export default function ExperiencePage() {
+export default function ExperiencePage(): JSX.Element {
   return (
     <div id="experience" className=" min-h-screen flex flex-col justify-center items-center ">
       <div className="animate-fade-in max-w-screen-xl mx-auto p-4 md:p-8">
