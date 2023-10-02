@@ -1,17 +1,17 @@
-import { MEDIBUDDY_URL, SUPERBEINGS_UTL } from "../constants"
+import { MEDIBUDDY_URL, SUPERBEINGS_UTL } from "../../constants"
 import ListTick from "./ListTick"
 
 export default function ExperiencePage(): JSX.Element {
   return (
-    <div id="experience" className=" min-h-screen flex flex-col justify-center items-center ">
+    <div id="experience" className=" main-div-ui ">
       <div className="animate-fade-in max-w-screen-xl mx-auto p-4 md:p-8">
-        <h2 className="text-2xl max-[500px]:text-xl font-semibold mb-6 text-center">Experience</h2>
+        <h2 className="title-ui">Experience</h2>
 
-        <div className="grid grid-cols-1 min-[950px]:grid-cols-2 gap-4 justify-evenly max-sm:w-11/12 max-[950px]:w-4/5 mx-auto">
+        <div className="sub-main-div-ui">
           {/* card 1 */}
-          <div className='bg-[#e4e4e4] dark:bg-[#090909] rounded-md p-6 pl-3  mx-auto border border-[#b4b4b4] dark:border-[#1c1c1c] outline-1'>
+          <div className='card-ui p-6 pl-3  mx-auto '>
             <p className=' font-bold'>Software Engineer Intern</p>
-            <p className='flex justify-evenly	' ><a href={MEDIBUDDY_URL} target="_blank" className="bg-[#d7d7d7] dark:bg-[#141414] rounded-md px-2 py-1 hover:bg-[#c8c8c8] dark:hover:bg-[#252525] italic ">MediBuddy</a> <span className="bg-[#d7d7d7] dark:bg-[#141414] rounded-md px-2 py-1 "> Jan'23 - May'23 </span> </p>
+            <p className='flex justify-evenly	' ><a href={MEDIBUDDY_URL} target="_blank" className="exp-url-ui">MediBuddy</a> <span className="bg-[#d7d7d7] dark:bg-[#141414] rounded-md px-2 py-1 "> Jan'23 - May'23 </span> </p>
             <ul className="  list-disc list-outside md:list-inside">
               <li className="flex  space-x-1 my-2">
                 <ListTick />
@@ -31,9 +31,9 @@ export default function ExperiencePage(): JSX.Element {
 
           {/* card 2 */}
 
-          <div className='bg-[#e4e4e4] dark:bg-[#090909] rounded-md p-6 pl-3  mx-auto border border-[#b4b4b4] dark:border-[#1c1c1c] outline-1'>
+          <div className='card-ui p-6 pl-3  mx-auto '>
             <p className=' font-bold'>Software Engineer Intern</p>
-            <p className='flex justify-evenly	' ><a href={SUPERBEINGS_UTL} target="_blank" className="bg-[#d7d7d7] dark:bg-[#141414] rounded-md px-2 py-1 hover:bg-[#c8c8c8] dark:hover:bg-[#252525] italic">SuperBeings</a> <span className="bg-[#d7d7d7] dark:bg-[#141414] rounded-md px-2 py-1 "> Jan'22 - Mar'22 </span> </p>
+            <p className='flex justify-evenly	' ><a href={SUPERBEINGS_UTL} target="_blank" className="exp-url-ui">SuperBeings</a> <span className="bg-[#d7d7d7] dark:bg-[#141414] rounded-md px-2 py-1 "> Jan'22 - Mar'22 </span> </p>
             <ul className="  list-disc list-outside md:list-inside">
               <li className="flex  space-x-1 my-2">
                 <ListTick />

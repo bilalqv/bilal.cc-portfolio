@@ -1,6 +1,6 @@
 import { SiGeeksforgeeks, SiGithub, SiHackerrank, SiLeetcode } from 'react-icons/si';
 import { LiaHackerrank } from 'react-icons/lia';
-import { GFG_URL, GITHUB_URL, HACKERRANK_URL, LEETCODE_URL, NIT_SRINAGAR, SUPERBEINGS_UTL } from '../constants';
+import { GFG_URL, GITHUB_URL, HACKERRANK_URL, LEETCODE_URL, NIT_SRINAGAR, SUPERBEINGS_UTL } from '../../constants';
 
 export default function AboutPage(): JSX.Element {
   const programmingLanguages = ['C', 'C++', 'HTML', 'CSS', 'JavaScript', 'TypeScript'];
@@ -11,18 +11,18 @@ export default function AboutPage(): JSX.Element {
 
 
   return (
-    <div id="about" className=" min-h-screen flex flex-col justify-center items-center ">
+    <div id="about" className=" main-div-ui ">
       <div className="animate-fade-in max-w-screen-xl mx-auto max-[480px]:p-1   p-4 md:p-8 ">
-        <h2 className="text-3xl max-[500px]:text-2xl font-semibold mb-6 text-center">About</h2>
+        <h2 className="title-ui">About</h2>
 
-        <div className="grid grid-cols-1 min-[950px]:grid-cols-2 gap-4 justify-evenly max-sm:w-11/12 max-[950px]:w-4/5 mx-auto">
+        <div className="sub-main-div-ui">
 
 
           {/* Education and Coding Profile (Left) */}
           <div className=" flex flex-col space-y-4">
-            <div className="bg-[#e4e4e4] dark:bg-[#090909] shadow-lg rounded-lg p-4 border border-[#b4b4b4] dark:border-[#1c1c1c] outline-1">
+            <div className="card-ui p-4">
               <p className="text-2xl max-[500px]:text-xl font-bold mb-0 text-center ">Education</p>
-              <hr className='h-px mb-2 bg-[#b4b4b4] dark:bg-[#232323] border-0 ' />
+              <hr className='hr-ui ' />
 
               <p className='flex justify-between italic' > <a href={NIT_SRINAGAR} target='_blank' className=' p-1 hover:bg-[#c8c8c8] dark:hover:bg-[#181818] rounded-md '>Natinoal Institute of Technology, Srinagar</a> </p>
               <p className='flex justify-between mb-1' > <span className='bg-[#d7d7d7] dark:bg-[#181818] rounded-md px-1 py-1'>B.Tech</span>  <span className='text-center bg-[#d7d7d7] dark:bg-[#181818] rounded-md px-1 py-1'>Computer Science and Engineering</span> </p>
@@ -35,15 +35,15 @@ export default function AboutPage(): JSX.Element {
               </ul>
 
             </div>
-            <div className="bg-[#e4e4e4] dark:bg-[#090909] shadow-lg rounded-lg p-4 border border-[#b4b4b4] dark:border-[#1c1c1c] outline-1">
+            <div className="card-ui p-4 ">
               <p className="text-2xl max-[500px]:text-xl font-bold mb-0 text-center">Coding Profile</p>
-              <hr className='h-px mb-2 bg-[#b4b4b4] dark:bg-[#232323] border-0' />
+              <hr className='hr-ui' />
 
               <div className="my-2 flex  justify-center space-x-4">
-                <a href={LEETCODE_URL} target='_blank' className=' p-2 hover:bg-[#cccccc] dark:hover:bg-[#181818] rounded-md '> <SiLeetcode className='text-3xl max-[500px]:text-xl' /> </a>
-                <a href={HACKERRANK_URL} target='_blank' className=' p-2 hover:bg-[#cccccc] dark:hover:bg-[#181818] rounded-md '> <LiaHackerrank className='text-3xl max-[500px]:text-xl' /> </a>
-                <a href={GFG_URL} target='_blank' className=' p-2 hover:bg-[#cccccc] dark:hover:bg-[#181818] rounded-md '> <SiGeeksforgeeks className='text-3xl max-[500px]:text-xl' /> </a>
-                <a href={GITHUB_URL} target='_blank' className=' p-2 hover:bg-[#cccccc] dark:hover:bg-[#181818] rounded-md '> <SiGithub className='text-3xl max-[500px]:text-xl' /> </a>
+                <a href={LEETCODE_URL} target='_blank' className=' project-icons '> <SiLeetcode className='text-3xl max-[500px]:text-xl' /> </a>
+                <a href={HACKERRANK_URL} target='_blank' className=' project-icons '> <LiaHackerrank className='text-3xl max-[500px]:text-xl' /> </a>
+                <a href={GFG_URL} target='_blank' className=' project-icons '> <SiGeeksforgeeks className='text-3xl max-[500px]:text-xl' /> </a>
+                <a href={GITHUB_URL} target='_blank' className=' project-icons '> <SiGithub className='text-3xl max-[500px]:text-xl' /> </a>
               </div>
 
               <p className='text-justify'>I love solving coding problems and I have solved hundreds pf problems across various coding platforms.</p>
@@ -55,19 +55,19 @@ export default function AboutPage(): JSX.Element {
           </div>
 
           {/* Skills Portion (Right) */}
-          <div className=" p-4 bg-[#e4e4e4] dark:bg-[#090909] shadow-lg rounded-lg ml-3 max-[950px]:ml-0 border border-[#b4b4b4] dark:border-[#1c1c1c] outline-1">
+          <div className=" p-4 card-ui ml-3 max-[950px]:ml-0 ">
             <p className="text-2xl max-[500px]:text-xl font-bold mb-0 text-center">Skills</p>
-            <hr className='h-px mb-2 bg-[#b4b4b4] dark:bg-[#232323] border-0 ' />
+            <hr className='hr-ui ' />
 
             <p className="text-xl font-bold mb-0 text-center">Programming Languages</p>
-            <hr className='my-1 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:opacity-100' />
+            <hr className='hr-small-ui' />
 
             <div className="flex flex-wrap px-4 max-[500px]:px-2">
 
               {programmingLanguages.map((skill, index) => (
                 <div
                   key={index}
-                  className="bg-[#d7d7d7] dark:bg-[#181818]  rounded-lg inline-flex items-center justify-center px-3 py-2 m-1  max-[470px]:px-2 max-[470px]:py-1.5 "
+                  className="skill-div-ui"
                 >
                   <p className="-mt-1 font-sans max-[500px]:text-sm ">{skill}</p>
                 </div>
@@ -75,14 +75,14 @@ export default function AboutPage(): JSX.Element {
             </div>
 
             <p className="text-xl font-bold mb-0 text-center">Topics</p>
-            <hr className='my-1 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:opacity-100' />
+            <hr className='hr-small-ui' />
 
             <div className="flex flex-wrap px-4 max-[500px]:px-2">
 
               {topics.map((skill, index) => (
                 <div
                   key={index}
-                  className="bg-[#d7d7d7] dark:bg-[#181818] rounded-lg inline-flex items-center justify-center px-3 py-2 m-1 max-[470px]:px-2 max-[470px]:py-1.5 "
+                  className="skill-div-ui"
                 >
                   <p className="-mt-1 font-sans max-[500px]:text-sm ">{skill}</p>
                 </div>
@@ -90,14 +90,14 @@ export default function AboutPage(): JSX.Element {
             </div>
 
             <p className="text-xl font-bold mb-0 text-center">Softwares and Libraries</p>
-            <hr className='my-1 h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-500 to-transparent opacity-25 dark:opacity-100' />
+            <hr className='hr-small-ui' />
 
             <div className="flex flex-wrap px-4 max-[500px]:px-2">
 
               {softwares.map((skill, index) => (
                 <div
                   key={index}
-                  className="bg-[#d7d7d7] dark:bg-[#181818] rounded-lg inline-flex items-center justify-center px-3 py-2 m-1 max-[470px]:px-2 max-[470px]:py-1.5 "
+                  className="skill-div-ui"
                 >
                   <p className="-mt-1 font-sans max-[500px]:text-sm ">{skill}</p>
                 </div>

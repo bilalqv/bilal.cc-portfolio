@@ -4,7 +4,7 @@ import { SiGithub, SiLinkedin } from "react-icons/si";
 import { Dancing_Script } from "next/font/google";
 import { useEffect, useRef } from "react";
 import ParticlesBg from "./backgroundEffects/ParticlesBg";
-import { GITHUB_URL, LINKEDIN_URL } from "../constants";
+import { GITHUB_URL, LINKEDIN_URL } from "../../constants";
 
 const dancing = Dancing_Script({
   weight: '400',
@@ -63,14 +63,14 @@ export default function HomePage(): JSX.Element {
   return (
     <div id="home-section" className=" h-screen flex flex-col justify-center text-center ">
       <ParticlesBg />
-      <h1 className={` ${dancing.className} font-bold  text-3xl max-[500px]:text-2xl max-md: content-center  md:text-4xl lg:text-5xl xl:text-6xl  animate-fade-in`}  >Bilal Ahmad Bhat</h1>
+      <h1 className={` ${dancing.className} name-title-ui animate-fade-in`}  >Bilal Ahmad Bhat</h1>
       <div className="text-lg md:text-xl lg:text-2xl  max-md:text-center  animate-fade-in my-1  ">
         I am a <span className="changing-text text-[#0563bb] italic" ref={el} >  </span>
         <span className="cursor blink text-[#0563bb] italic">|</span>
       </div>
       <div className='social-links flex  justify-center space-x-4    animate-fade-in border border-[#b4b4b4] dark:border-[#1e1e1e] outline-1 w-min mx-auto rounded-md p-2 '>
-        <a href={LINKEDIN_URL} target='_blank' className=' p-2 hover:bg-[#cccccc] dark:hover:bg-[#181818] rounded-md '> <SiLinkedin className='text-2xl' /> </a>
-        <a href={GITHUB_URL} target='_blank' className=' p-2 hover:bg-[#cccccc] dark:hover:bg-[#181818] rounded-md '> <SiGithub className='text-2xl' /> </a>
+        <a href={LINKEDIN_URL} target='_blank' className=' project-icons '> <SiLinkedin className='text-2xl' /> </a>
+        <a href={GITHUB_URL} target='_blank' className=' project-icons '> <SiGithub className='text-2xl' /> </a>
       </div>
     </div>
   )
