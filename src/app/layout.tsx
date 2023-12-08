@@ -15,11 +15,11 @@ export const metadata: Metadata = {
     template: '%s | Bilal Ahmad Bhat',
     default: 'Bilal Ahmad Bhat | Software Developer',
   },
-  description: 'Bilal Ahmad Bhat - Software Developer - My personal portfolio website',
+  description: 'Bilal Ahmad Bhat - Software Development Engineer - My personal portfolio website',
   authors: [{ name: 'Bilal Ahmad Bhat' }],
   applicationName: 'Bilal Ahmad Bhat - Portfolio',
   generator: 'Next.js',
-  keywords: [ 'Bilal Ahmad Bhat', 'Bilal', 'crediblebilal', 'bilal.cc', 'nextjs', 'portfolio', 'TypeScript', 'developer', 'Computer Science', 'Software Engineer'],
+  keywords: [ 'Bilal Ahmad Bhat', 'Bilal', 'bilal ahmad bhat', 'crediblebilal', 'bilal.cc', 'nextjs', 'portfolio', 'TypeScript', 'developer', 'Computer Science', 'Software Engineer', 'kashmir', 'handwara', 'kupwara'],
   creator: 'Bilal Ahmad Bhat - crediblebilal@gmail.com',
   publisher: 'Bilal Ahmad Bhat',
 }
