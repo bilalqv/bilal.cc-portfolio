@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import AchievementsPage from "../components/AchievementsPage";
+import AchievementsPage from "@/components/AchievementsPage";
 
 export const metadata: Metadata = {
   title: 'Achievements'

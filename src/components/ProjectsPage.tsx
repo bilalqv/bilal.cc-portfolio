@@ -2,7 +2,7 @@ import { SiGithub, SiMysql, SiRedis, SiSequelize } from "react-icons/si";
 import { BsGlobe } from "react-icons/bs";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoJavascript, BiLogoReact, BiLogoMongodb } from "react-icons/bi";
-import { CHAT_APP_URL, PATIENT_PORTAL_URL } from "../../constants";
+import { CHAT_APP_URL, PATIENT_PORTAL_URL } from "@/constants";
 
 
 export default function ProjectsPage(): JSX.Element {

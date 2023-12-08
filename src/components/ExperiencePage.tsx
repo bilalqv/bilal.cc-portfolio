@@ -1,4 +1,4 @@
-import { MEDIBUDDY_URL, SUPERBEINGS_UTL } from "../../constants"
+import { MEDIBUDDY_URL, SUPERBEINGS_UTL } from "@/constants"
 import ListTick from "./ListTick"
 
 export default function ExperiencePage(): JSX.Element {

@@ -1,6 +1,6 @@
 import { SiGeeksforgeeks, SiGithub, SiHackerrank, SiLeetcode } from 'react-icons/si';
 import { LiaHackerrank } from 'react-icons/lia';
-import { GFG_URL, GITHUB_URL, HACKERRANK_URL, LEETCODE_URL, NIT_SRINAGAR, SUPERBEINGS_UTL } from '../../constants';
+import { GFG_URL, GITHUB_URL, HACKERRANK_URL, LEETCODE_URL, NIT_SRINAGAR, SUPERBEINGS_UTL } from '@/constants';
 
 export default function AboutPage(): JSX.Element {
   const programmingLanguages = ['C', 'C++', 'HTML', 'CSS', 'JavaScript', 'TypeScript'];

@@ -4,7 +4,7 @@ import { SiGithub, SiLinkedin } from "react-icons/si";
 import { Dancing_Script } from "next/font/google";
 import { useEffect, useRef } from "react";
 import ParticlesBg from "./backgroundEffects/ParticlesBg";
-import { GITHUB_URL, LINKEDIN_URL } from "../../constants";
+import { GITHUB_URL, LINKEDIN_URL } from "../constants";
 
 const dancing = Dancing_Script({
   weight: '400',

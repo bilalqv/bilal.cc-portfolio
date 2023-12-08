@@ -1,5 +1,5 @@
 import { SiGithub, SiLinkedin, SiGmail } from "react-icons/si";
-import { EMAIL, GITHUB_URL, LINKEDIN_URL } from "../../constants";
+import { EMAIL, GITHUB_URL, LINKEDIN_URL } from "@/constants";
 
 export default function ContactPage(): JSX.Element {
   return (

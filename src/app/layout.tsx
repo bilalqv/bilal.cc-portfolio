@@ -1,7 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Raleway } from 'next/font/google'
-import Navbar from './components/Navbar'
+import Navbar from '@/components/Navbar'
 
 
 const raleway = Raleway({
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   authors: [{ name: 'Bilal Ahmad Bhat' }],
   applicationName: 'Bilal Ahmad Bhat - Portfolio',
   generator: 'Next.js',
-  keywords: ['nextjs', 'portfolio', 'TypeScript', 'developer', 'Computer Science', 'Software Engineer'],
+  keywords: [ 'Bilal Ahmad Bhat', 'Bilal', 'crediblebilal', 'bilal.cc', 'nextjs', 'portfolio', 'TypeScript', 'developer', 'Computer Science', 'Software Engineer'],
   creator: 'Bilal Ahmad Bhat - crediblebilal@gmail.com',
   publisher: 'Bilal Ahmad Bhat',
 }
