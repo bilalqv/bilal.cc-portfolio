@@ -24,7 +24,7 @@ export default function AboutPage(): JSX.Element {
               <p className="text-2xl max-[500px]:text-xl font-bold mb-0 text-center ">Education</p>
               <hr className='hr-ui ' />
 
-              <p className='flex justify-between italic' > <a href={NIT_SRINAGAR} target='_blank' className=' p-1 hover:bg-[#c8c8c8] dark:hover:bg-[#181818] rounded-md '>Natinoal Institute of Technology, Srinagar</a> </p>
+              <p className='flex justify-between italic' > <a href={NIT_SRINAGAR} target='_blank' className=' p-1 hover:bg-[#c8c8c8] dark:hover:bg-[#181818] rounded-md '>National Institute of Technology, Srinagar</a> </p>
               <p className='flex justify-between mb-1' > <span className='bg-[#d7d7d7] dark:bg-[#181818] rounded-md px-1 py-1'>B.Tech</span>  <span className='text-center bg-[#d7d7d7] dark:bg-[#181818] rounded-md px-1 py-1'>Computer Science and Engineering</span> </p>
               <p className='flex justify-between mb-1 max-[360px]:text-xs' > <span className='bg-[#d7d7d7] dark:bg-[#181818] rounded-md px-1 py-1'>July'19 - June'23</span> <span className='text-center bg-[#d7d7d7] dark:bg-[#181818] rounded-md px-1 py-1'> CGPA: 8.40 / 10 </span> </p>
 
