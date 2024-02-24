@@ -1,3 +1,5 @@
+import { BiHome, BiUser, BiBriefcase, BiCodeAlt, BiMailSend, BiTrophy } from 'react-icons/bi';
+
 export const GITHUB_URL: string = 'https://www.github.com/bilalqv';
 export const LINKEDIN_URL: string = 'https://www.linkedin.com/in/bilalqv';
 export const LEETCODE_URL: string = 'https://www.leetcode.com/bilalqv';
@@ -22,25 +24,31 @@ export const NavList = [
     {
         name: 'Home',
         href: '/',
+        icon: <BiHome />,
     },
     {
         name: 'About',
         href: '/about',
+        icon: <BiUser />,
     },
     {
         name: 'Experience',
         href: '/experience',
+        icon: <BiBriefcase />,
     },
     {
         name: 'Projects',
         href: '/projects',
+        icon: <BiCodeAlt />,
     },
     {
         name: 'Achievements',
         href: '/achievements',
+        icon: <BiTrophy />,
     },
     {
         name: 'Contact',
         href: '/contact',
+        icon: <BiMailSend />,
     },
 ];

@@ -90,7 +90,7 @@ body {
 
 @layer components {
   .nav-btn {
-    @apply p-2 m-2 max-[500px]:px-1 max-[500px]:mx-1 max-[400px]:tracking-tight max-[400px]:font-light rounded-md hover:bg-[#cccccc] max-[950px]:hover:bg-[#dddddd] dark:hover:bg-[#181818] dark:max-[950px]:hover:bg-[#181818] text-xs;
+    @apply p-2 m-2 max-[500px]:px-3 rounded-md hover:bg-[#cccccc] max-[950px]:hover:bg-[#dddddd] dark:hover:bg-[#181818] dark:max-[950px]:hover:bg-[#181818] text-xs;
   }
 
   .nav-btn-active {
@@ -127,7 +127,7 @@ body {
     @apply min-h-screen flex flex-col justify-center items-center;
   }
   .sub-main-div-ui {
-    @apply grid grid-cols-1 min-[950px]:grid-cols-2 gap-4 justify-evenly max-sm:w-11/12 max-[950px]:w-4/5 mx-auto;
+    @apply grid grid-cols-1 min-[951px]:grid-cols-2 gap-4 justify-evenly max-sm:w-11/12 max-[950px]:w-4/5 mx-auto;
   }
   .skill-div-ui {
     @apply bg-[#d7d7d7] dark:bg-[#181818] rounded-lg inline-flex items-center justify-center px-3 py-2 m-1 max-[470px]:px-2 max-[470px]:py-1.5;
