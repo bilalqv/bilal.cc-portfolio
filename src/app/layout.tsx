@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   creator: 'Bilal Ahmad Bhat - crediblebilal@gmail.com',
   publisher: 'Bilal Ahmad Bhat',
   openGraph: {
-    title: 'Bilal Ahmad Bhat | Portfolio',
+    title: 'Bilal Ahmad Bhat | Software Engineer | Portfolio',
     description: 'Bilal Ahmad Bhat | Software Development Engineer | My personal portfolio website',
     url: 'https://bilal.cc',
     siteName: 'Bilal Ahmad Bhat - Portfolio',
