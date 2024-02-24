@@ -65,7 +65,7 @@ export default function HomePage(): JSX.Element {
       <ParticlesBg />
       <h1 className={` ${dancing.className} name-title-ui animate-fade-in`}  >Bilal Ahmad Bhat</h1>
       <div className="text-lg md:text-xl lg:text-2xl  max-md:text-center  animate-fade-in my-1  ">
-        I am a <span className="changing-text text-[#0563bb] italic" ref={el} >  </span>
+        I am a <span className="changing-text text-[#0563bb] italic"  > Software Developer </span>
         <span className="cursor blink text-[#0563bb] italic">|</span>
       </div>
       <div className='social-links flex  justify-center space-x-4    animate-fade-in border border-[#b4b4b4] dark:border-[#1e1e1e] outline-1 w-min mx-auto rounded-md p-2 '>
